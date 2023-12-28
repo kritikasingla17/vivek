@@ -1,0 +1,31 @@
+1. get APi -> To show all the todo list ( "/")
+    response : [    {
+        todoName:"",
+        id:"", //unique
+        isCompleted:boolean,
+        createdAt:"" //dateString
+    },{
+
+    }]
+    
+2.  Post APi -> to Add todo ("/add")
+    response: updates Todo list
+    [    {
+        todoName:"",
+        id:"", //unique
+        isCompleted:boolean,
+        createdAt:"" //dateString
+    },{
+
+    }]
+
+3. Post APi -> complete specific todo ('/?id=""') HINT: Query param
+    response: updated todolist
+    [    {
+        todoName:"",
+        id:"", //unique
+        isCompleted:boolean,
+        createdAt:"" //dateString
+    },{
+
+    }]
